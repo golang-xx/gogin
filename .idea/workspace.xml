@@ -29,7 +29,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a989e4-536b-4047-8150-1f7c380a1763" name="Default Changelist" comment="" />
+    <list default="true" id="c4a989e4-536b-4047-8150-1f7c380a1763" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goweb/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +65,32 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build goweb">
+    <configuration name="go build gogin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="www" />
+      <working_directory value="$PROJECT_DIR$/gogin" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/gogin/main.go" />
+      <package value="gogin" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build goweb" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="www" />
+      <working_directory value="$PROJECT_DIR$/goweb" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/goweb/main.go" />
+      <package value="goweb" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build goweb" />
+        <item itemvalue="Go Build.go build gogin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,22 +129,26 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="446" y="194" key="#Go_Modules/0.0.1360.728@0.0.1360.728" timestamp="1616509557662" />
-    <state width="657" height="160" key="GridCell.Tab.0.bottom" timestamp="1616596824308">
+    <state x="100" y="100" width="1160" height="528" maximized="true" key="DiffContextDialog" timestamp="1616596953788">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="657" height="160" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1616596824308" />
-    <state width="657" height="160" key="GridCell.Tab.0.center" timestamp="1616596824308">
+    <state x="100" y="100" width="1160" height="528" maximized="true" key="DiffContextDialog/0.0.1360.728@0.0.1360.728" timestamp="1616596953788" />
+    <state width="657" height="160" key="GridCell.Tab.0.bottom" timestamp="1616596953671">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="657" height="160" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1616596824308" />
-    <state width="657" height="160" key="GridCell.Tab.0.left" timestamp="1616596824308">
+    <state width="657" height="160" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1616596953671" />
+    <state width="657" height="160" key="GridCell.Tab.0.center" timestamp="1616596953670">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="657" height="160" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1616596824308" />
-    <state width="657" height="160" key="GridCell.Tab.0.right" timestamp="1616596824308">
+    <state width="657" height="160" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1616596953670" />
+    <state width="657" height="160" key="GridCell.Tab.0.left" timestamp="1616596953670">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="657" height="160" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1616596824308" />
+    <state width="657" height="160" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1616596953670" />
+    <state width="657" height="160" key="GridCell.Tab.0.right" timestamp="1616596953670">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="657" height="160" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1616596953670" />
     <state x="195" y="0" key="SettingsEditor" timestamp="1616509788474">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
