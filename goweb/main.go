@@ -87,7 +87,7 @@ func dealArgs(args ...interface{}) {
 
 func printError() {
 	fmt.Println("Error !!!!!!!!!")
-	fmt.Println("goweb  newproject newport \n eg: goweb ginweb xxx 8887 、\n")
+	fmt.Println("goweb  newproject newport \n eg: goweb  xxx 8887 、\n")
 	return
 }
 
