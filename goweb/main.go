@@ -26,7 +26,7 @@ func main() {
 		return
 	}
 	// 要遍历的文件 夹
-	copyDir("/home/edwin/www/goweb",dir+"/"+targetproject)
+	copyDir("/home/edwin/www/ginweb",dir+"/"+targetproject)
 	fmt.Println("Sussess!")
 
 	replacestr(dir+"/"+targetproject,"ginweb",targetproject)
