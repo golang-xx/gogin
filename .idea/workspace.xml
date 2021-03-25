@@ -64,7 +64,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Go Build.go build goweb">
     <configuration name="go build gogin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -129,6 +129,14 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="446" y="194" key="#Go_Modules/0.0.1360.728@0.0.1360.728" timestamp="1616509557662" />
+    <state x="410" y="71" key="#HTTP_Proxy" timestamp="1616674149149">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="410" y="71" key="#HTTP_Proxy/0.0.1360.728@0.0.1360.728" timestamp="1616674149149" />
+    <state x="138" y="17" width="1084" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616674137288">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="138" y="17" width="1084" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1616674137288" />
     <state x="100" y="100" width="1160" height="528" maximized="true" key="DiffContextDialog" timestamp="1616596953788">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -149,9 +157,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1314" height="138" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1616673320334" />
-    <state x="195" y="0" key="SettingsEditor" timestamp="1616509788474">
+    <state x="195" y="0" key="SettingsEditor" timestamp="1616674157873">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="195" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1616509788474" />
+    <state x="195" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1616674157873" />
   </component>
 </project>

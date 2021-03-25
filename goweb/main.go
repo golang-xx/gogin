@@ -1,10 +1,16 @@
 package main
+
 import (
+	"fmt"
 	"io/ioutil"
+	"os"
+	"reflect"
 	"strings"
 )
 
 func main() {
+
+
 	// 要遍历的文件 夹
 	dir := `../`
 
@@ -12,6 +18,7 @@ func main() {
 	// 参数：要遍历的文件夹，层级（默认：0）
 	findDir(dir, 0)
 
+	PrintArgs1(os.Args)
 }
 
 // 遍历的文件夹
@@ -36,4 +43,15 @@ func findDir(dir string, num int) {
 			println(`文件：`, fi.Name())
 		}
 	}
+
+}
+
+//变参函数的定义方式
+func PrintArgs1(args ...interface{}) {
+	fmt.Println(args[0].([]string))
+	fmt.Println(reflect.TypeOf(args[0]))
+	for k, v := range args[0].([]string) {
+		fmt.Println(k, " =", v, reflect.TypeOf(v))
+	}
+
 }
