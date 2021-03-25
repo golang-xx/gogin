@@ -17,6 +17,9 @@ var(
 func main() {
 
 	dealArgs(os.Args)
+	if len(targetproject) == 0 {
+		return
+	}
 	// 要遍历的文件 夹
 	copyDir("../ginweb","../"+targetproject)
 	fmt.Println("Sussess!")
