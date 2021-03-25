@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"os/exec"
 	"strconv"
 	"strings"
 )
@@ -13,19 +14,26 @@ var(
 )
 func main() {
 
-
-	// 要遍历的文件 夹
-	dir := `../`
-
-	// 遍历的文件夹
-	// 参数：要遍历的文件夹，层级（默认：0）
-	findDir(dir, 0)
+	var cmd *exec.Cmd
 
 	dealArgs(os.Args)
+	// 要遍历的文件 夹
+	dir := `../`
+	cmd = exec.Command("mkdir", dir+targetproject)
+	outPut, e := cmd.Output()
+	if e != nil {
+		fmt.Println(e.Error())
+		return
+	}
+	fmt.Println(string(outPut))
+	// 遍历的文件夹
+	// 参数：要遍历的文件夹，层级（默认：0）
+	findDir(dir, 0,targetproject)
+
 }
 
 // 遍历的文件夹
-func findDir(dir string, num int) {
+func findDir(dir string, num int,tarproject string) {
 
 	 fileinfo, err := ioutil.ReadDir(dir)
 	if err != nil {
@@ -41,7 +49,7 @@ func findDir(dir string, num int) {
 		// 判断是不是目录
 		if fi.IsDir() {
 			println(`目录：`, fi.Name())
-			findDir(dir+`/`+fi.Name(), num+1)
+			findDir(dir+`/`+fi.Name(), num+1,tarproject)
 		} else {
 			println(`文件：`, fi.Name())
 		}
