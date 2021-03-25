@@ -30,7 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a989e4-536b-4047-8150-1f7c380a1763" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goweb/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,5 +160,13 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="195" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1616674157873" />
+    <state x="443" y="272" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616675302278">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="443" y="272" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1616675302278" />
+    <state x="372" y="0" width="646" height="728" key="find.popup" timestamp="1616675328894">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="372" y="0" width="646" height="728" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1616675328894" />
   </component>
 </project>

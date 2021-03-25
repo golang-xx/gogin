@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"reflect"
 	"strconv"
 	"strings"
 )
@@ -22,7 +21,7 @@ func main() {
 	// 参数：要遍历的文件夹，层级（默认：0）
 	findDir(dir, 0)
 
-	PrintArgs1(os.Args)
+	dealArgs(os.Args)
 }
 
 // 遍历的文件夹
@@ -51,7 +50,7 @@ func findDir(dir string, num int) {
 }
 
 //变参函数的定义方式
-func PrintArgs1(args ...interface{}) {
+func dealArgs(args ...interface{}) {
 	argsarr := args[0].([]string)
 	fmt.Println(argsarr)
 	fmt.Println(len(argsarr))
@@ -63,11 +62,10 @@ func PrintArgs1(args ...interface{}) {
 		printError()
 		return
 	}
+	targetproject = argsarr[1]
+	port,_= strconv.Atoi(argsarr[2] )
 
-	for k, v := range argsarr {
-		fmt.Println(k, " =", v, reflect.TypeOf(v))
-	}
-
+	fmt.Println("target:",targetproject,"\t port:",port)
 }
 
 func printError() {
