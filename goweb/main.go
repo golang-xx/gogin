@@ -15,18 +15,23 @@ var(
 	targetproject string
 )
 func main() {
+	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(dir)
 
 	dealArgs(os.Args)
 	if len(targetproject) == 0 {
 		return
 	}
 	// 要遍历的文件 夹
-	copyDir("../ginweb","../"+targetproject)
+	copyDir("/home/edwin/www/goweb",dir+"/"+targetproject)
 	fmt.Println("Sussess!")
 
-	replacestr("../"+targetproject,"ginweb",targetproject)
+	replacestr(dir+"/"+targetproject,"ginweb",targetproject)
 	fmt.Println(port)
-	replacestr("../"+targetproject,"8090", strconv.Itoa(port))
+	replacestr(dir+"/"+targetproject,"8090", strconv.Itoa(port))
 
 
 }
