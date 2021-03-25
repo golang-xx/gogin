@@ -5,9 +5,13 @@ import (
 	"io/ioutil"
 	"os"
 	"reflect"
+	"strconv"
 	"strings"
 )
-
+var(
+	port int
+	targetproject string
+)
 func main() {
 
 
@@ -48,10 +52,31 @@ func findDir(dir string, num int) {
 
 //变参函数的定义方式
 func PrintArgs1(args ...interface{}) {
-	fmt.Println(args[0].([]string))
-	fmt.Println(reflect.TypeOf(args[0]))
-	for k, v := range args[0].([]string) {
+	argsarr := args[0].([]string)
+	fmt.Println(argsarr)
+	fmt.Println(len(argsarr))
+	if len(argsarr) != 3 {
+		printError()
+		return
+	}
+	if !IsNum(argsarr[2]) {
+		printError()
+		return
+	}
+
+	for k, v := range argsarr {
 		fmt.Println(k, " =", v, reflect.TypeOf(v))
 	}
 
+}
+
+func printError() {
+	fmt.Println("Error !!!!!!!!!")
+	fmt.Println("goweb  newproject newport \n eg: goweb ginweb xxx 8887 、\n")
+	return
+}
+
+func IsNum(s string) bool {
+	_, err := strconv.ParseFloat(s, 64)
+	return err == nil
 }
