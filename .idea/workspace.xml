@@ -30,6 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a989e4-536b-4047-8150-1f7c380a1763" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goweb/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" path="/usr/lib/go-1.11" />
+  <component name="GOROOT" path="$PROJECT_DIR$/../go/go1.16.2" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -63,7 +64,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RunManager" selected="Go Build.go build goweb">
     <configuration name="go build gogin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -156,10 +157,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1314" height="138" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1616673320334" />
-    <state x="195" y="0" key="SettingsEditor" timestamp="1616674157873">
+    <state x="195" y="0" key="SettingsEditor" timestamp="1616675734904">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="195" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1616674157873" />
+    <state x="195" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1616675734904" />
     <state x="443" y="272" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616675302278">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
