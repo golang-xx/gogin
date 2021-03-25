@@ -28,7 +28,7 @@ func main() {
 	fmt.Println(string(outPut))
 	// 遍历的文件夹
 	// 参数：要遍历的文件夹，层级（默认：0）
-	findDir(dir, 0,targetproject)
+	findDir(dir+"ginweb", 0,targetproject)
 
 }
 
@@ -60,8 +60,6 @@ func findDir(dir string, num int,tarproject string) {
 //变参函数的定义方式
 func dealArgs(args ...interface{}) {
 	argsarr := args[0].([]string)
-	fmt.Println(argsarr)
-	fmt.Println(len(argsarr))
 	if len(argsarr) != 3 {
 		printError()
 		return
@@ -73,7 +71,6 @@ func dealArgs(args ...interface{}) {
 	targetproject = argsarr[1]
 	port,_= strconv.Atoi(argsarr[2] )
 
-	fmt.Println("target:",targetproject,"\t port:",port)
 }
 
 func printError() {
