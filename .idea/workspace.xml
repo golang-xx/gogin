@@ -30,7 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a989e4-536b-4047-8150-1f7c380a1763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/goweb/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Shell Script.push.sh">
     <configuration name="go build gogin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -151,6 +150,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="612" y="269" key="#Custom_Plugin_Repositories" timestamp="1617027402618">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="612" y="269" key="#Custom_Plugin_Repositories/0.0.1360.728@0.0.1360.728" timestamp="1617027402618" />
     <state x="475" y="25" width="402" height="689" key="#GOPATH" timestamp="1616509695398">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -163,6 +166,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="410" y="71" key="#HTTP_Proxy/0.0.1360.728@0.0.1360.728" timestamp="1616674149149" />
+    <state x="404" y="184" width="543" height="372" key="#Notifications" timestamp="1617027825746">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="404" y="184" width="543" height="372" key="#Notifications/0.0.1360.728@0.0.1360.728" timestamp="1617027825746" />
     <state x="138" y="17" width="1084" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616674137288">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -171,26 +178,26 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="100" y="100" width="1160" height="528" maximized="true" key="DiffContextDialog/0.0.1360.728@0.0.1360.728" timestamp="1616596953788" />
-    <state width="1314" height="138" key="GridCell.Tab.0.bottom" timestamp="1616681728386">
+    <state width="1314" height="138" key="GridCell.Tab.0.bottom" timestamp="1616682231832">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1314" height="138" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1616681728386" />
-    <state width="1314" height="138" key="GridCell.Tab.0.center" timestamp="1616681728386">
+    <state width="1314" height="138" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1616682231832" />
+    <state width="1314" height="138" key="GridCell.Tab.0.center" timestamp="1616682231832">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1314" height="138" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1616681728386" />
-    <state width="1314" height="138" key="GridCell.Tab.0.left" timestamp="1616681728385">
+    <state width="1314" height="138" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1616682231832" />
+    <state width="1314" height="138" key="GridCell.Tab.0.left" timestamp="1616682231831">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1314" height="138" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1616681728385" />
-    <state width="1314" height="138" key="GridCell.Tab.0.right" timestamp="1616681728386">
+    <state width="1314" height="138" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1616682231831" />
+    <state width="1314" height="138" key="GridCell.Tab.0.right" timestamp="1616682231832">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1314" height="138" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1616681728386" />
-    <state x="195" y="0" key="SettingsEditor" timestamp="1616681847937">
+    <state width="1314" height="138" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1616682231832" />
+    <state x="195" y="0" key="SettingsEditor" timestamp="1617027478548">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="195" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1616681847937" />
+    <state x="195" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1617027478548" />
     <state x="443" y="272" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616675302278">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
