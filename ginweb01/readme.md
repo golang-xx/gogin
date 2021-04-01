@@ -16,7 +16,7 @@ docker build -t ginweb01:v1.0.0 .
 
 ## 4.运行
 ```
-c
+docker run -d -p 8091:8091 ginweb01:v1.0.0
 ```
 
 
