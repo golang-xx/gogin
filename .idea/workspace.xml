@@ -30,8 +30,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a989e4-536b-4047-8150-1f7c380a1763" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ginweb02/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb02/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb02/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb02/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ginweb01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/ginweb01/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,16 +70,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Shell Script.push.sh">
-    <configuration name="go build gogin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="www" />
-      <working_directory value="$PROJECT_DIR$/gogin" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/gogin/main.go" />
-      <package value="gogin" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Docker.ginweb01/docker-compose.yaml.myProject_port8080: Compose Deployment">
     <configuration name="go build goweb" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="www" />
       <working_directory value="$PROJECT_DIR$/goweb" />
@@ -112,13 +107,26 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ginweb01/docker-compose.yaml.myProject_port8080: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="myProject_port8080" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="ginweb01/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.ginweb01/docker-compose.yaml.myProject_port8080: Compose Deployment" />
+        <item itemvalue="Docker.ginweb01/docker-compose.yaml.myProject_port8080: Compose Deployment" />
         <item itemvalue="Shell Script.push.sh" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build goweb" />
-        <item itemvalue="Go Build.go build gogin" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +163,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="612" y="269" key="#Custom_Plugin_Repositories/0.0.1360.728@0.0.1360.728" timestamp="1617027402618" />
+    <state x="329" y="0" key="#Docker" timestamp="1617286429730">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="329" y="0" key="#Docker/0.0.1360.728@0.0.1360.728" timestamp="1617286429730" />
     <state x="475" y="25" width="402" height="689" key="#GOPATH" timestamp="1616509695398">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -167,10 +179,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="410" y="71" key="#HTTP_Proxy/0.0.1360.728@0.0.1360.728" timestamp="1616674149149" />
-    <state x="404" y="184" width="543" height="372" key="#Notifications" timestamp="1617027825746">
+    <state x="404" y="184" width="543" height="372" key="#Notifications" timestamp="1617364478878">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="404" y="184" width="543" height="372" key="#Notifications/0.0.1360.728@0.0.1360.728" timestamp="1617027825746" />
+    <state x="404" y="184" width="543" height="372" key="#Notifications/0.0.1360.728@0.0.1360.728" timestamp="1617364478878" />
     <state x="138" y="17" width="1084" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616674137288">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -207,5 +219,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="372" y="0" width="646" height="728" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1616675328894" />
+    <state x="738" y="271" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1617364694443">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="738" y="271" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1360.728@0.0.1360.728" timestamp="1617364694443" />
   </component>
 </project>
